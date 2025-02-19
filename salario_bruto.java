@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class salario_bruto {
 	public static void main(String[] args) {
-		Double horatrab, valorhora, salbruto, salliquido, inss;
 		
-		
+		]Double horatrab, valorhora, salbruto, salliquido, inss;
 		Scanner ler = new Scanner(System.in);
 		
 		System.out.println("Horas trabalhadas:");
@@ -17,7 +16,6 @@ public class salario_bruto {
 		
 		salbruto = valorhora*horatrab;
 		
-		
 		inss = salbruto * 0.12;
 		System.out.println("Seu INSS é:" + inss);
 		
@@ -25,14 +23,6 @@ public class salario_bruto {
 		
 		System.out.println("Seu salário bruto é:" + salbruto);
 		System.out.println("Seu salário liquido é:" + salliquido);
-		
-		
-		
-		
-	
-		
-		
-
 	}
 
 }
